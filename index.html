@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 4 bis </title>
+    <link rel="stylesheet" href="styles.css/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+
+        <!-- NAV -->
+        <nav class="navbar navbar-inverse bg-secondary">
+            <div class="container-fluid">
+              <div class="navbar-header"></div>
+              <a class="btn btn-primary" href="index.html" role="button">Accueil</a>
+              <a class="btn btn-primary" href="box.html" role="button">Box</a>
+            </div>
+          </nav>
+
+          <!-- jumpbotron -->
+          <div class="jumbotron jumbotron-fluid bg-light">
+            <div class="container">
+              <h1 class="display-4">Jumpbotron</h1>
+              <p class="lead">Ceci est un Jumpbotron</p>
+            </div>
+          </div>
+    </header>
+    
+<!-- Creation Carousel  -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/colisee.jpg" class="d-block h-200" alt="slide1">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/colisee.jpg" class="d-block h-200" alt="slide2">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/colisee.jpg" class="d-block h-100" alt="slide3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Precedent</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Suivant</span>
+    </button>
+  </div>
+
+
+
+ <!-- <div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><img src="Images/colisee.jpg" class="card-img-top" alt="colisee"></li>
+      <li class="list-group-item"><img src="Images/colisee.jpg" class="card-img-top" alt="colisee"></li>
+      <li class="list-group-item"><img src="Images/colisee.jpg" class="card-img-top" alt="colisee"></li>
+      <li class="list-group-item"><img src="Images/colisee.jpg" class="card-img-top" alt="colisee"></li>
+    </ul>
+  </div>
+-->
+<!--Creation section--> 
+  <section class="container-fluid">
+    <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="Images/colisee.jfif" alt="Image 1">
+                <div class="card-body">
+                  <h5 class="card-title">Carte 1</h5>
+                  <p class="card-text">Description de la carte 1.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="Images/colisee.jfif" alt="Image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Carte 2</h5>
+                  <p class="card-text">Description de la carte 2.</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-deck mt-4">
+              <div class="card">
+                <img class="card-img-top" src="Images/colisee.jfif" alt="Image 3">
+                <div class="card-body">
+                  <h5 class="card-title">Carte 3</h5>
+                  <p class="card-text">Description de la carte 3.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="Images/colisee.jfif" alt="Image 4">
+                <div class="card-body">
+                  <h5 class="card-title">Carte 4</h5>
+                  <p class="card-text">Description de la carte 4.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <img src="Images/colisee.jfif" alt="Image 5" class="img-fluid mb-4">
+            <img src="Images/colisee.jfif" alt="Image 6" class="img-fluid">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Creation footer-->
+  <footer class="text-center text-white fixed-bottom bg-secondary">
+    <!-- Grid container -->
+    <div class="container m-3"></div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="bg-secondary text-center m-3" >
+      © 2023 Copyright Nawal MEDDAH
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
